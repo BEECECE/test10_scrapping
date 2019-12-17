@@ -18,11 +18,11 @@ def getallurls()
 	div_classes = doc.xpath('//div[@class="list_table"]')
 	all_a = div_classes.css('a')   
 
-	allsurl = all_a.map{|element| urls = 'https://nosdeputes.fr'+element["href"]}
+	allurl = all_a.map{|element| urls = 'https://nosdeputes.fr'+element["href"]}
 
 	# puts allurl
 
-	allsurl.each { |url| puts getemail(url) }
+	allurl.each { |url| puts getemail(url) }
 
 end
 
