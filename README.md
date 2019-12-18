@@ -15,7 +15,7 @@
 ####  * mairie_xstmas.rb
 
 
-### 3) Dark Trader - to do ... one day ;-((
+### 3) Dark Trader
 
 #### Gets from [cryptocurrencies](https://coinmarketcap.com/all/views/all/) prices of cryptocurrencies : (*currency name*, *price*)
 
