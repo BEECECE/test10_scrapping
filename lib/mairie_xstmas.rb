@@ -6,10 +6,9 @@ require 'open-uri'
 def get_townhall_email(url)
 	page = Nokogiri::HTML(open(url))
     page.css("td")[7].text
-
 end
 
-def get_all_the_emails(url)
+def get_all_emails(url)
 
 	page= Nokogiri::HTML(open(url))
 	final = Array.new
@@ -23,11 +22,10 @@ def get_all_the_emails(url)
 	}
 
 	puts final
-
 end
 
 def perform
-	get_all_the_emails("http://annuaire-des-mairies.com/val-d-oise.html")
+	get_all_emails("http://annuaire-des-mairies.com/val-d-oise.html")
 end
 
 perform
