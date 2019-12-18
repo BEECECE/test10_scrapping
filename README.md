@@ -7,8 +7,7 @@
 
 ### 1) Mairie Christmas
 
-#### Scrapping emails of the town halls of Val d'Oise from web url taken from 
-#### [l'annuaire des mairies](http://annuaire-des-mairies.com/val-d-oise.html).
+#### Scrapping emails of the town halls of Val d'Oise from web url taken from [l'annuaire des mairies] (http://annuaire-des-mairies.com/val-d-oise.html).
 ####  * mairie_xstmas.rb
 
 ### 2) Dark Trader - to do 
@@ -19,11 +18,11 @@
 
 ### 3) Deputes
 
-#### Gets name and email from French deputes. Thank you Nokogiri from #### [https://www.nosdeputes.fr/deputes]
+#### Gets name and email from French deputes. Thank you Nokogiri from [https://www.nosdeputes.fr/deputes]
 
 #### * deputes.rb
 
-### 4) Road to incubators - to do
+### 4) Road to incubators - to do ;-(( ... one day ...
 
 #### From [site](http://www.mon-incubateur.com/site_incubateur/incubateurs) which lists French #### incubators, we get ( *Nom de l'incubateur*, *Code postal*, *Site web* ) through our program
 
