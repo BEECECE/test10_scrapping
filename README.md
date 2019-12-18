@@ -1,30 +1,30 @@
-# Scrapping Project - THP training
+# Scrapping Project - THP training - gem [Nokogiri](https://github.com/sparklemotion/nokogiri). 
 
-## using gem [Nokogiri](https://github.com/sparklemotion/nokogiri). 
+#### --------------------------------------------------------------------
 
-#### ----------------------------------------------------------------------
+### 1) Deputes
+
+#### Gets name and email from French deputes. Thank you Nokogiri from [https://www.nosdeputes.fr/deputes]
+
+#### * deputes.rb 
 
 
-### 1) Mairie Christmas
+### 2) Mairie Christmas
 
 #### Scrapping emails of the town halls of Val d'Oise from web url taken from [l'annuaire des mairies] (http://annuaire-des-mairies.com/val-d-oise.html).
 ####  * mairie_xstmas.rb
 
-### 2) Dark Trader - to do 
 
-#### dk_trader.rb gets the price of cryptocurrencies ... one day ;-((
+### 3) Dark Trader - to do ... one day ;-((
+
+#### Gets from [https://coinmarketcap.com/all/views/all/] prices of cryptocurrencies : (*currency name*, *price*)
 
 #### * dk_trader.rb
 
-### 3) Deputes
-
-#### Gets name and email from French deputes. Thank you Nokogiri from [https://www.nosdeputes.fr/deputes]
-
-#### * deputes.rb
 
 ### 4) Road to incubators - to do ;-(( ... one day ...
 
-#### From [site](http://www.mon-incubateur.com/site_incubateur/incubateurs) which lists French #### incubators, we get ( *Nom de l'incubateur*, *Code postal*, *Site web* ) through our program
+#### From [site](http://www.mon-incubateur.com/site_incubateur/incubateurs) which lists French incubators, we get ( *Nom de l'incubateur*, *Code postal*, *Site web* ) through our program
 
 #### * incubator_road.rb
 
